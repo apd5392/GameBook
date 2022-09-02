@@ -5,11 +5,11 @@
 
 ---
 
-# **_Description_**
+## **_Description_**
 #### An app where users can post and share the games they own and are currently playing. Users will also be allowed to leave reviews and rate the games they have played.
 ---
 
-# **_Getting Started_**
+## **_Getting Started_**
 [Trello](https://trello.com/b/lS7oNiQX/gamebook)
 
 [Heroku]()
@@ -17,7 +17,7 @@
 ---
 
 
-# **Technology Used**
+## **Technology Used**
 - React
 - Postgresql/Django
 - Express
@@ -33,18 +33,18 @@
 
 ---
 
-# **Component Heirarchy:**
+## **Component Heirarchy:**
 
 ![CHD]()
 
 ---
-# **ERD:**
+## **ERD:**
 
 ![ERD]()
 
 ---
 
-# **Trello**
+## **Trello**
 
 [Trello]()
 
@@ -59,7 +59,7 @@
 
 ---
 
-# **Credit**
+## **Credit**
 -
 -
 -
