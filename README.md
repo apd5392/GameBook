@@ -35,12 +35,12 @@
 
 ## **Component Heirarchy:**
 
-![CHD]()
+![CHD](https://i.imgur.com/ySAInKE.png)
 
 ---
 ## **ERD:**
 
-![ERD]()
+![ERD](https://i.imgur.com/jFCJX3h.png)
 
 ---
 
