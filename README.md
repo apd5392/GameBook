@@ -19,7 +19,7 @@
 
 ## **Technology Used**
 - React
-- Postgresql/Django
+- Django/Postgresql
 - Express
 - Node.js
 - JavaScript
@@ -41,12 +41,6 @@
 ## **ERD:**
 
 ![ERD]()
-
----
-
-## **Trello**
-
-[Trello]()
 
 ---
 
