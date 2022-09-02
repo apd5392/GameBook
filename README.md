@@ -47,7 +47,7 @@
 ## Post-MVP
 
 - Auth
-- 
+- Mobile Version
 - 
 - 
 
