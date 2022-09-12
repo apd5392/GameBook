@@ -10,6 +10,7 @@
 ---
 
 ## **_Getting Started_**
+[FrontEnd](https://github.com/apd5392/GameBook-FrontEnd-)
 [Trello](https://trello.com/b/lS7oNiQX/gamebook)
 
 [Heroku]()
@@ -22,6 +23,7 @@
 - Django/Postgresql
 - Express
 - Node.js
+- Python
 - JavaScript
 - CSS
 - HTML
@@ -54,6 +56,6 @@
 ---
 
 ## **Credit**
-- [Django_DropDown](https://stackoverflow.com/questions/31130706/dropdown-in-django-model)
+- [Django DropDown](https://stackoverflow.com/questions/31130706/dropdown-in-django-model)
 -
 -
