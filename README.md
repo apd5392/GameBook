@@ -10,9 +10,7 @@
 ---
 
 ## **_Getting Started_**
-[FrontEnd](https://github.com/apd5392/GameBook-FrontEnd-)
 [Trello](https://trello.com/b/lS7oNiQX/gamebook)
-
 [Heroku]()
 
 ---
@@ -20,10 +18,9 @@
 
 ## **Technology Used**
 - React
-- Django/Postgresql
+- MongoDB
 - Express
 - Node.js
-- Python
 - JavaScript
 - CSS
 - HTML

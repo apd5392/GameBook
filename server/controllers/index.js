@@ -1,4 +1,4 @@
-const { Game, Review } = require("../models");
+const { Game, Review, User } = require("../models");
 
 // Show Data, Get Databse
 
@@ -20,6 +20,18 @@ const getAllReviews = async (req, res) => {
   }
 };
 
+
+const getAllUsers = async (req, res) => {
+  try {
+    const users = await User.find();
+    return res.status(200).json({ users });
+  } catch (error) {
+    return res.status(500).send(error.message);
+  }
+};
+
+
+
 //Create a new objects
 
 const createGame = async (req, res) => {
@@ -28,6 +40,17 @@ const createGame = async (req, res) => {
     await game.save();
     return res.status(201).json({
       game,
+    });
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+};
+const createUser = async (req, res) => {
+  try {
+    const user = await new Game(req.body);
+    await user.save();
+    return res.status(201).json({
+      user,
     });
   } catch (error) {
     return res.status(500).json({ error: error.message });
@@ -67,6 +90,23 @@ const updateHero = async (req, res) => {
   }
 };
 
+const updateUser = async (req, res) => {
+  try {
+    const user = req.body;
+    console.log(req.body);
+    const rest = await User.findByIdAndUpdate(req.params.id, user);
+    if (user) {
+      return res.send({ msg: `User Updated` });
+    }
+    if (!rest) {
+      res.status(500).send("User not found");
+    }
+    return res.status(200).json(rest);
+  } catch (error) {
+    return res.status(500).send(error.message);
+  }
+};
+
 const deleteHero = async (req, res) => {
   try {
     const deleted = await Game.findByIdAndDelete(req.params.id);
@@ -81,8 +121,11 @@ const deleteHero = async (req, res) => {
 
 module.exports = {
   createGame,
+  createUser,
+  updateUser,
   getAllGames,
   getAllReviews,
+  getAllUsers,
   getHeroId,
   updateHero,
   deleteHero,

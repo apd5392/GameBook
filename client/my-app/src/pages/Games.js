@@ -43,6 +43,9 @@ const Games = () => {
   } else {
     return (
       <div>
+        <div className="addGameButton">
+          <button onClick={() => navigate("/addGame")}>Add Game</button>
+        </div>
         {games.map((game) => (
           <div className="gameCard">
             {/* <p>{</p> */}

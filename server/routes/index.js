@@ -7,15 +7,22 @@ router.get("/", (req, res) => res.send("HomePage"));
 //Get Routes
 router.get("/heroes", controllers.getAllGames);
 router.get("/villains", controllers.getAllReviews);
+router.get("/user", controllers.getAllUsers);
+
 
 //Search
 router.get('/heroes/:id', controllers.getHeroId)
 
 //Post Routes
 router.post("/heroes", controllers.createGame);
+router.post("/users", controllers.createUser);
+
 
 //Update Routes
 router.put('/heroes/:id', controllers.updateHero)
+router.put('/users/:id', controllers.updateUser)
+
+
 
 
 //Delete Routes
