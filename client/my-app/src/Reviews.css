@@ -1,0 +1,30 @@
+.reviewDiv {
+    width: 650px;
+    margin-left: 25%;
+    padding: 20px;
+  }
+  .reviewDiv h2 {
+    font-size: 40px;
+  }
+  .reviewDiv h2:hover {
+    color: red;
+  }
+  .reviewDiv h3 {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      margin-top: -25px;
+      margin-bottom: 35px;
+  }
+  .review-box{
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+  }
+  .reviewTitle{
+text-decoration: underline;
+  }

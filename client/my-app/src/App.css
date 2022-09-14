@@ -1,0 +1,53 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&family=Kaushan+Script&display=swap"); */
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: grey;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  color: black;
+  font-style: italic;
+  font-family: "Ibarra Real Nova", serif;
+}
+.Nav {
+  background-color: white;
+  background-image: black;
+  background-size: cover;
+  color: black;
+  padding: 20px;
+  font-family: "Ibarra Real Nova", serif;
+}
+.div h2 {
+  background-color: wheat;
+  background-size: contain;
+  margin-left: 40%;
+  font-size: 40px;
+  width: fit-content;
+}
+a {
+  color: black;
+  text-decoration: underline;
+  padding: 20px;
+  background-color: white;
+}
+a:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.div h3 {
+  background-color: wheat;
+  width: fit-content;
+  margin-left: 40%;
+}

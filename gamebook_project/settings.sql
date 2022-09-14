@@ -1,3 +1,0 @@
-CREATE DATABASE gamebook;
-CREATE USER gbuser WITH PASSWORD 'gamebook';
-GRANT ALL PRIVILEGES ON DATABASE gamebook TO gbuser;

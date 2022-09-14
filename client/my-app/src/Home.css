@@ -1,0 +1,68 @@
+.heroDiv {
+  background-color: darkolivegreen;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: aliceblue;
+}
+.heroDiv h2 {
+  font-size: 40px;
+}
+.heroDiv h3 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -25px;
+  margin-bottom: 35px;
+}
+img {
+  margin-top: 30px;
+  width: 300px;
+  height: 100%;
+  border-radius: 45px;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.intro {
+  background-color: darkgray;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: aliceblue;
+}
+.heroCardDiv {
+  background-color: darkgray;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: aliceblue;
+}
+.gameCard {
+  background-color: darkgray;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 30%;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: aliceblue;
+}
+.gameTitle {
+  margin-top: 25px;
+  font-size: 50px;
+}
+.gameConsole {
+  margin-top: -50px;
+  font-size: 25px;
+}
+.gameGenre {
+  margin-top: -20px;
+}
