@@ -11,7 +11,6 @@
 
 ## **_Getting Started_**
 [Trello](https://trello.com/b/lS7oNiQX/gamebook)
-[Heroku]()
 
 ---
 
@@ -28,6 +27,7 @@
 
 ---
 ### **Images**
+![HomePage](https://i.imgur.com/2PPU3Xm.png)
 
 
 ---
@@ -47,12 +47,12 @@
 
 - Auth
 - Mobile Version
-- 
-- 
+- Styling
+- Deployment
 
 ---
 
-## **Credit**
-- [Django DropDown](https://stackoverflow.com/questions/31130706/dropdown-in-django-model)
--
--
+## **Special Thanks to:**
+- [Jay](https://github.com/jayl2)
+- [Jacqiue](https://github.com/v-jacx)
+- [An](https://github.com/atn95)

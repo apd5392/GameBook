@@ -23,6 +23,7 @@ const Reviews = () => {
   } else {
     return (
       <div className="reviewDiv">
+        <h1 className="reviewTitleList">Reviews List</h1>
         {reviews.map((review) => (
           <ReviewCard
             className="reviewCardDiv"
